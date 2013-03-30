@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A99AED3417070950002F4FAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99AED3317070950002F4FAF /* Foundation.framework */; };
+		A99AED3917070950002F4FAF /* Libreria.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A99AED3817070950002F4FAF /* Libreria.h */; };
+		A99AED3B17070950002F4FAF /* Libreria.m in Sources */ = {isa = PBXBuildFile; fileRef = A99AED3A17070950002F4FAF /* Libreria.m */; };
+		A99AED4317070951002F4FAF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99AED4217070951002F4FAF /* SenTestingKit.framework */; };
+		A99AED4517070951002F4FAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99AED4417070951002F4FAF /* UIKit.framework */; };
+		A99AED4617070951002F4FAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A99AED3317070950002F4FAF /* Foundation.framework */; };
+		A99AED4917070951002F4FAF /* libLibreria.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A99AED3017070950002F4FAF /* libLibreria.a */; };
+		A99AED4F17070951002F4FAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A99AED4D17070951002F4FAF /* InfoPlist.strings */; };
+		A99AED5217070951002F4FAF /* LibreriaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A99AED5117070951002F4FAF /* LibreriaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A99AED4717070951002F4FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A99AED2817070950002F4FAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A99AED2F17070950002F4FAF;
+			remoteInfo = Libreria;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A99AED2E17070950002F4FAF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				A99AED3917070950002F4FAF /* Libreria.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A99AED3017070950002F4FAF /* libLibreria.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibreria.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99AED3317070950002F4FAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A99AED3717070950002F4FAF /* Libreria-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Libreria-Prefix.pch"; sourceTree = "<group>"; };
+		A99AED3817070950002F4FAF /* Libreria.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Libreria.h; sourceTree = "<group>"; };
+		A99AED3A17070950002F4FAF /* Libreria.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Libreria.m; sourceTree = "<group>"; };
+		A99AED4117070951002F4FAF /* LibreriaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibreriaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A99AED4217070951002F4FAF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A99AED4417070951002F4FAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A99AED4C17070951002F4FAF /* LibreriaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LibreriaTests-Info.plist"; sourceTree = "<group>"; };
+		A99AED4E17070951002F4FAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A99AED5017070951002F4FAF /* LibreriaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibreriaTests.h; sourceTree = "<group>"; };
+		A99AED5117070951002F4FAF /* LibreriaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibreriaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A99AED2D17070950002F4FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99AED3417070950002F4FAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99AED3D17070951002F4FAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99AED4317070951002F4FAF /* SenTestingKit.framework in Frameworks */,
+				A99AED4517070951002F4FAF /* UIKit.framework in Frameworks */,
+				A99AED4617070951002F4FAF /* Foundation.framework in Frameworks */,
+				A99AED4917070951002F4FAF /* libLibreria.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A99AED2717070950002F4FAF = {
+			isa = PBXGroup;
+			children = (
+				A99AED3517070950002F4FAF /* Libreria */,
+				A99AED4A17070951002F4FAF /* LibreriaTests */,
+				A99AED3217070950002F4FAF /* Frameworks */,
+				A99AED3117070950002F4FAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A99AED3117070950002F4FAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A99AED3017070950002F4FAF /* libLibreria.a */,
+				A99AED4117070951002F4FAF /* LibreriaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A99AED3217070950002F4FAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A99AED3317070950002F4FAF /* Foundation.framework */,
+				A99AED4217070951002F4FAF /* SenTestingKit.framework */,
+				A99AED4417070951002F4FAF /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A99AED3517070950002F4FAF /* Libreria */ = {
+			isa = PBXGroup;
+			children = (
+				A99AED3817070950002F4FAF /* Libreria.h */,
+				A99AED3A17070950002F4FAF /* Libreria.m */,
+				A99AED3617070950002F4FAF /* Supporting Files */,
+			);
+			path = Libreria;
+			sourceTree = "<group>";
+		};
+		A99AED3617070950002F4FAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A99AED3717070950002F4FAF /* Libreria-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A99AED4A17070951002F4FAF /* LibreriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A99AED5017070951002F4FAF /* LibreriaTests.h */,
+				A99AED5117070951002F4FAF /* LibreriaTests.m */,
+				A99AED4B17070951002F4FAF /* Supporting Files */,
+			);
+			path = LibreriaTests;
+			sourceTree = "<group>";
+		};
+		A99AED4B17070951002F4FAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A99AED4C17070951002F4FAF /* LibreriaTests-Info.plist */,
+				A99AED4D17070951002F4FAF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A99AED2F17070950002F4FAF /* Libreria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99AED5517070951002F4FAF /* Build configuration list for PBXNativeTarget "Libreria" */;
+			buildPhases = (
+				A99AED2C17070950002F4FAF /* Sources */,
+				A99AED2D17070950002F4FAF /* Frameworks */,
+				A99AED2E17070950002F4FAF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Libreria;
+			productName = Libreria;
+			productReference = A99AED3017070950002F4FAF /* libLibreria.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A99AED4017070951002F4FAF /* LibreriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99AED5817070951002F4FAF /* Build configuration list for PBXNativeTarget "LibreriaTests" */;
+			buildPhases = (
+				A99AED3C17070951002F4FAF /* Sources */,
+				A99AED3D17070951002F4FAF /* Frameworks */,
+				A99AED3E17070951002F4FAF /* Resources */,
+				A99AED3F17070951002F4FAF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A99AED4817070951002F4FAF /* PBXTargetDependency */,
+			);
+			name = LibreriaTests;
+			productName = LibreriaTests;
+			productReference = A99AED4117070951002F4FAF /* LibreriaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A99AED2817070950002F4FAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Algos;
+			};
+			buildConfigurationList = A99AED2B17070950002F4FAF /* Build configuration list for PBXProject "Libreria" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A99AED2717070950002F4FAF;
+			productRefGroup = A99AED3117070950002F4FAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A99AED2F17070950002F4FAF /* Libreria */,
+				A99AED4017070951002F4FAF /* LibreriaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A99AED3E17070951002F4FAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99AED4F17070951002F4FAF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A99AED3F17070951002F4FAF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A99AED2C17070950002F4FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99AED3B17070950002F4FAF /* Libreria.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99AED3C17070951002F4FAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99AED5217070951002F4FAF /* LibreriaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A99AED4817070951002F4FAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A99AED2F17070950002F4FAF /* Libreria */;
+			targetProxy = A99AED4717070951002F4FAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A99AED4D17070951002F4FAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A99AED4E17070951002F4FAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A99AED5317070951002F4FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A99AED5417070951002F4FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A99AED5617070951002F4FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Libreria.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Libreria/Libreria-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A99AED5717070951002F4FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Libreria.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Libreria/Libreria-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A99AED5917070951002F4FAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Libreria/Libreria-Prefix.pch";
+				INFOPLIST_FILE = "LibreriaTests/LibreriaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A99AED5A17070951002F4FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Libreria/Libreria-Prefix.pch";
+				INFOPLIST_FILE = "LibreriaTests/LibreriaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A99AED2B17070950002F4FAF /* Build configuration list for PBXProject "Libreria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99AED5317070951002F4FAF /* Debug */,
+				A99AED5417070951002F4FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99AED5517070951002F4FAF /* Build configuration list for PBXNativeTarget "Libreria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99AED5617070951002F4FAF /* Debug */,
+				A99AED5717070951002F4FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A99AED5817070951002F4FAF /* Build configuration list for PBXNativeTarget "LibreriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A99AED5917070951002F4FAF /* Debug */,
+				A99AED5A17070951002F4FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A99AED2817070950002F4FAF /* Project object */;
+}
