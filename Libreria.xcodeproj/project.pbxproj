@@ -16,6 +16,11 @@
 		A99AED4917070951002F4FAF /* libLibreria.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A99AED3017070950002F4FAF /* libLibreria.a */; };
 		A99AED4F17070951002F4FAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A99AED4D17070951002F4FAF /* InfoPlist.strings */; };
 		A99AED5217070951002F4FAF /* LibreriaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A99AED5117070951002F4FAF /* LibreriaTests.m */; };
+		A99AED8417070A61002F4FAF /* MPlist.m in Sources */ = {isa = PBXBuildFile; fileRef = A99AED8117070A61002F4FAF /* MPlist.m */; };
+		A99AED8517070A61002F4FAF /* MFile.m in Sources */ = {isa = PBXBuildFile; fileRef = A99AED8317070A61002F4FAF /* MFile.m */; };
+		A9B7E3FF171050FE00674C56 /* libRequest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A99AED7D170709A1002F4FAF /* libRequest.a */; };
+		A9B7E4031710514600674C56 /* LibLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B7E4021710514600674C56 /* LibLocation.m */; };
+		A9B7E4051710515400674C56 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B7E4041710515400674C56 /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +30,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = A99AED2F17070950002F4FAF;
 			remoteInfo = Libreria;
+		};
+		A99AED7C170709A1002F4FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A99AED6D170709A1002F4FAF /* Request.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A9214AFC16FC5C5200A37C63;
+			remoteInfo = Request;
+		};
+		A99AED7E170709A1002F4FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A99AED6D170709A1002F4FAF /* Request.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A9214B0D16FC5C5200A37C63;
+			remoteInfo = RequestTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -54,6 +73,14 @@
 		A99AED4E17070951002F4FAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A99AED5017070951002F4FAF /* LibreriaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibreriaTests.h; sourceTree = "<group>"; };
 		A99AED5117070951002F4FAF /* LibreriaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibreriaTests.m; sourceTree = "<group>"; };
+		A99AED6D170709A1002F4FAF /* Request.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Request.xcodeproj; sourceTree = "<group>"; };
+		A99AED8017070A61002F4FAF /* MPlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPlist.h; sourceTree = "<group>"; };
+		A99AED8117070A61002F4FAF /* MPlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPlist.m; sourceTree = "<group>"; };
+		A99AED8217070A61002F4FAF /* MFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFile.h; sourceTree = "<group>"; };
+		A99AED8317070A61002F4FAF /* MFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFile.m; sourceTree = "<group>"; };
+		A9B7E4011710514600674C56 /* LibLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibLocation.h; sourceTree = "<group>"; };
+		A9B7E4021710514600674C56 /* LibLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibLocation.m; sourceTree = "<group>"; };
+		A9B7E4041710515400674C56 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B7E4051710515400674C56 /* CoreLocation.framework in Frameworks */,
+				A9B7E3FF171050FE00674C56 /* libRequest.a in Frameworks */,
 				A99AED3417070950002F4FAF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +130,7 @@
 		A99AED3217070950002F4FAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A9B7E4041710515400674C56 /* CoreLocation.framework */,
 				A99AED3317070950002F4FAF /* Foundation.framework */,
 				A99AED4217070951002F4FAF /* SenTestingKit.framework */,
 				A99AED4417070951002F4FAF /* UIKit.framework */,
@@ -111,6 +141,9 @@
 		A99AED3517070950002F4FAF /* Libreria */ = {
 			isa = PBXGroup;
 			children = (
+				A9B7E4001710510E00674C56 /* Location */,
+				A99AED8617070A6B002F4FAF /* File/Plist */,
+				A99AED64170709A1002F4FAF /* Request */,
 				A99AED3817070950002F4FAF /* Libreria.h */,
 				A99AED3A17070950002F4FAF /* Libreria.m */,
 				A99AED3617070950002F4FAF /* Supporting Files */,
@@ -143,6 +176,44 @@
 				A99AED4D17070951002F4FAF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A99AED64170709A1002F4FAF /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				A99AED6D170709A1002F4FAF /* Request.xcodeproj */,
+			);
+			name = Request;
+			path = ../../Request;
+			sourceTree = "<group>";
+		};
+		A99AED6E170709A1002F4FAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A99AED7D170709A1002F4FAF /* libRequest.a */,
+				A99AED7F170709A1002F4FAF /* RequestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A99AED8617070A6B002F4FAF /* File/Plist */ = {
+			isa = PBXGroup;
+			children = (
+				A99AED8017070A61002F4FAF /* MPlist.h */,
+				A99AED8117070A61002F4FAF /* MPlist.m */,
+				A99AED8217070A61002F4FAF /* MFile.h */,
+				A99AED8317070A61002F4FAF /* MFile.m */,
+			);
+			name = File/Plist;
+			sourceTree = "<group>";
+		};
+		A9B7E4001710510E00674C56 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				A9B7E4011710514600674C56 /* LibLocation.h */,
+				A9B7E4021710514600674C56 /* LibLocation.m */,
+			);
+			name = Location;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +274,12 @@
 			mainGroup = A99AED2717070950002F4FAF;
 			productRefGroup = A99AED3117070950002F4FAF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A99AED6E170709A1002F4FAF /* Products */;
+					ProjectRef = A99AED6D170709A1002F4FAF /* Request.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A99AED2F17070950002F4FAF /* Libreria */,
@@ -210,6 +287,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A99AED7D170709A1002F4FAF /* libRequest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRequest.a;
+			remoteRef = A99AED7C170709A1002F4FAF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A99AED7F170709A1002F4FAF /* RequestTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RequestTests.octest;
+			remoteRef = A99AED7E170709A1002F4FAF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A99AED3E17070951002F4FAF /* Resources */ = {
@@ -244,6 +338,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A99AED3B17070950002F4FAF /* Libreria.m in Sources */,
+				A99AED8417070A61002F4FAF /* MPlist.m in Sources */,
+				A99AED8517070A61002F4FAF /* MFile.m in Sources */,
+				A9B7E4031710514600674C56 /* LibLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +498,7 @@
 				A99AED5717070951002F4FAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A99AED5817070951002F4FAF /* Build configuration list for PBXNativeTarget "LibreriaTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +507,7 @@
 				A99AED5A17070951002F4FAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
